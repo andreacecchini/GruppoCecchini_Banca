@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Banca_Esercizio.Banca">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Banca.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContoCorrente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banca_Esercizio.Persona">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAgAAAAAAQAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContoCorrente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banca_Esercizio.ContoCorrente">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAIEAAAAAAAAAAAQAAIAAAAgABSAAA=</HashCode>
+      <FileName>ContoCorrente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Movimento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banca_Esercizio.ContoOnline">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAACAAQAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContoOnline.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContoCorrente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banca_Esercizio.Movimento">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Movimento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banca_Esercizio.Bonifico">
+    <Position X="2" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Bonifico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banca_Esercizio.Versamento">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Versamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banca_Esercizio.Prelievo">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prelievo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
